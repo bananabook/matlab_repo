@@ -1,7 +1,7 @@
 %-----------------------------------------------------------------------------
 %- This is a trainer to train the root locus analysis It creates a random
-%transferfunction and asks to create the root locus. It then creates the root
-%locus to compare to.
+% transferfunction and asks to create the root locus. It then creates the root
+% locus to compare to.
 %-----------------------------------------------------------------------------
 clear
 close all
@@ -9,11 +9,11 @@ clc
 
 %- Parameters configure the trainer to your liking with these four settings
 
-% How many roots should the transfer function have
+% How many roots should the transfer function have at most
 max_many_roots = 5;
 % What is the largest value for a coefficient in the numerator
 max_numerator_coeff = 10;
-% How many poles should the transfer function have
+% How many poles should the transfer function have at most
 max_many_poles = 5;
 % What is the largest value for a coefficient in the denominator
 max_denom_coeff = 10;
