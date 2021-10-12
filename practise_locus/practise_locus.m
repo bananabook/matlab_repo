@@ -1,8 +1,8 @@
-%-----------------------------------------------------------------------------
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %- This is a trainer to train the root locus analysis It creates a random
 % transferfunction and asks to create the root locus. It then creates the root
 % locus to compare to.
-%-----------------------------------------------------------------------------
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 clear
 close all
 clc
